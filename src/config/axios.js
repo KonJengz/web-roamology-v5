@@ -2,7 +2,8 @@ import axios from "axios";
 import useUserStore from "../stores/userStore";
 
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:8887/api/v1",
+  baseURL:
+    "https://api-roamology-v4-6r7h8k2iz-konjengs-projects.vercel.app/api/v1",
 
   timeout: 5000,
 });

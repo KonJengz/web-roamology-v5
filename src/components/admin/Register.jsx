@@ -137,10 +137,6 @@ function Register() {
           )}
         </BtnForm>
       </form>
-
-      <a href="http://localhost:8887/api/v1/auth/google">
-        <button>Login with Google</button>
-      </a>
     </>
   );
 }
