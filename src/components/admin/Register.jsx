@@ -12,7 +12,7 @@ import { useState } from "react";
 
 import AddImgProfile from "../form/AddImgProfile";
 import useUserStore from "../../stores/userStore";
-import axiosInstance from "../../config/axios";
+// import axiosInstance from "../../config/axios";
 
 const initialInput = {
   email: "",
