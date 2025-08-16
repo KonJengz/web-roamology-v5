@@ -2,8 +2,7 @@ import axios from "axios";
 import useUserStore from "../stores/userStore";
 
 const axiosInstance = axios.create({
-  baseURL:
-    "https://api-roamology-v4-8mt6izbtl-konjengs-projects.vercel.app/api/v1",
+  baseURL: "https://api-roamology-v4.vercel.app/api/v1",
   timeout: 5000,
   withCredentials: true,
 });
